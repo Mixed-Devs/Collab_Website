@@ -28,6 +28,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+STATICFILES_DIRS=[
+    "\website\website_app\static"
+]
+
 
 # Application definition
 

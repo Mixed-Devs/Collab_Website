@@ -11,3 +11,6 @@ class TestPageView(TemplateView):
 
 class BasePageView(TemplateView):
     template_name = 'base.html'
+
+class Daniilwebsite(TemplateView):
+    template_name = 'daniil_website.html'
