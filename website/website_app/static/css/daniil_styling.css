@@ -39,8 +39,8 @@ h1 {
 	font-size: 60px;
 	line-height: 1.2;
 	margin-bottom: 15px;
-	background-color: #b8c6db;
-	background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+	background-color: #f8ceec;
+	background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
 	margin: auto;
 	border-radius: 25px;
   	width: 200px;
@@ -129,8 +129,8 @@ h1 {
 #about h2 {
 	margin: 30px 0;
 	color: black;
-	background-color: #b8c6db;
-	background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+	background-color: #f8ceec;
+	background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
 	margin: auto;
 	border-radius: 25px;
   	width: 300px;
@@ -139,8 +139,8 @@ h1 {
 #about h3 {
 	margin: 100px ;
 	color: black;
-	background-color: #b8c6db;
-	background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+	background-color: #f8ceec;
+	background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
 	margin: auto;
 	border-radius: 25px;
   	width: 400px;
@@ -164,8 +164,8 @@ h1 {
 #contact h2 {
 	margin: 30px 0;
 	color: black;
-	background-color: #b8c6db;
-	background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+	background-color: #f8ceec;
+	background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
 	margin: auto;
 	border-radius: 25px;
   	width: 400px;
