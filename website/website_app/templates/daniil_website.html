@@ -15,7 +15,7 @@
     <body>
         <section class="showcase">
             <div class="video-container">
-                <video src="https://traversymedia.com/downloads/video.mov" autoplay muted loop></video>
+                <video src="{% static 'video/Forest_snow.mp4' %}" autoplay muted loop></video>
             </div>
             <div class="content">
 				<h2>Daniil Lebedev</h2>
@@ -32,10 +32,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="{% url 'home' %}">Tan <span class="sr-only"></span></a>
+                    <a class="navbar-brand" href="{% url 'home' %}">Home</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="{% url 'daniil_page' %}">Daniil <span class="sr-only"></span></a>
+                    <a class="navbar-brand" href="{% url 'daniil_page' %}">Daniil</a>
                   </li>
             </div>
         </nav>

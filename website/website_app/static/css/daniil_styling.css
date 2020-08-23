@@ -30,7 +30,7 @@ nav {
 	background-color: #fce043;
 	background-image: linear-gradient(315deg, #fce043 0%, #fb7ba2 74%);
 	align-content: center;
-	width:200px;
+	width:220px;
 	height: 50px;
 }
 
@@ -39,12 +39,13 @@ h1 {
 	font-size: 60px;
 	line-height: 1.2;
 	margin-bottom: 15px;
+	color: white;
 	background-color: #f8ceec;
 	background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
 	margin: auto;
 	border-radius: 25px;
   	width: 200px;
-  	height: 50px;
+	height: 50px;
 }
 
 
@@ -121,6 +122,20 @@ h1 {
 	color: black;
 	
 }
+h1 {
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 1.2;
+	margin-bottom: 15px;
+	background-color: #f8ceec;
+	background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+	margin: auto;
+	border-radius: 25px;
+  	width: 200px;
+	height: 50px;
+	box-shadow: 4px 4px grey;
+}
+
 
 #about h2 {
 	margin: 30px 0;
@@ -130,7 +145,9 @@ h1 {
 	margin: auto;
 	border-radius: 25px;
   	width: 300px;
-  	height: 50px;
+	height: 50px;
+	box-shadow: 4px 4px grey;
+	color: white;
 }
 #about h3 {
 	margin: 100px ;
@@ -139,8 +156,10 @@ h1 {
 	background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
 	margin: auto;
 	border-radius: 25px;
-  	width: 100px;
-  	height: 50px;
+  	width: 300px;
+	height: 50px;
+	box-shadow: 4px 4px  grey;
+	color: white;
 }
 
 #contact {
@@ -165,7 +184,9 @@ h1 {
 	margin: auto;
 	border-radius: 25px;
   	width: 400px;
-  	height: 50px;
+	height: 50px;
+	color: white;
+	box-shadow: 4px 4px grey;
 }
 
 .social a {
