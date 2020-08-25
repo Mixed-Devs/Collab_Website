@@ -1,0 +1,16 @@
+nav {
+	margin: auto;
+	border-radius: 10px 40px;
+	background-color: #fce043;
+	background-image: linear-gradient(315deg, #fce043 0%, #fb7ba2 74%);
+	align-content: center;
+	width:100px;
+    height: 50px;
+    display: flex;
+    text-decoration: none;
+}
+
+ul{
+    text-decoration: none;
+}
+

@@ -1,0 +1,56 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="about me">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Tangeni Idhenga">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' media='screen' href='{% static "css/tan_styling.css" %}'>
+        <link rel='stylesheet' type='text/css' media='screen' href='{% static "css/navbar_styling.css" %}'>
+    </head>
+    <nav>
+        <a href="{% url 'home' %}">Main</a>|
+        <a href="{% url 'daniil_page' %}">Daniil</a>|
+    </nav>
+    <body> 
+        <h1>
+            HELLO & WELCOME
+        </h1>
+
+            <!---Add CV and etc.-->
+        <h2>About Tangeni Idhenga</h2>
+            <p>
+                Based in London, Tangeni Idhenga is a 17 year old that has been insprired by friends and influencers around the world to learn and study more 
+                into the fields of Computer Science. He is current secondary school student studying to graduate with an 
+                international baccalaureate diploma in June of 2021. Throughout his academic career, Tangeni has 
+                been presented with oppertunities that would range from Internships to multiple leadership activities.
+                He is also currently interested in learning more about front-end development thorugh the use of Python. 
+            </p>
+        <b><h3> Experiances</h3></b>
+            <p>In January of 2020, Tangeni had participated within the Model United Nations General Assembly located in The Hague, Netherlands, participating activitly throughout multiple discussions
+            as well as    </p> 
+            <p> Tangeni has served as a Foreign relations intern for the High Commision of Namibia to the United Kindgom, London, as well as 
+                the the Permanent Missiojn of Namibia to the United Nations located within New York City.      </p>
+            <p> From July 2019 to present day, August 2020, Tangeni has been working as a Business Operations Intern, for Palmera Investments located in Windhoek,Namibia.</p> 
+            
+        <b><h3> Future Plans</h3></b>
+            <p> Tangeni plans to study Computer Science within the United States  </p>
+    <h3> Contact Info </h3> 
+
+        <div>
+            <a href="https://github.com/TangeniI">GitHub<i class="fab fa-github-alt"></i></a>
+            <a href="https://t.me/TangeniI">Telegram<i class="fab fa-telegram"></i></a></p>
+            <a href="https://www.linkedin.com/in/tangeni-idhenga-056267190/">linkedin<i class="fab fa-linkedin"></i></a></p>
+            <a href="mailto:tangeni.idhenga@gmail.com">tangeni.idhenga@gmail.com</a></p>
+        </div>
+        <!---Add something here.-->
+    </body>
+
+
+    <footer>
+        <p>Crated by Tangeni Idhenga 2020</br></p>
+    </footer>
+</html> 
