@@ -14,8 +14,8 @@ body{
 }
 
 .skewedBox{
-    background-color: #4dccc6;
-    background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+    background-color: #cdedfd;
+    background-image: linear-gradient(319deg, #cdedfd 0%, #ffec82 37%, #ffcfd2 100%);
     padding:100px 0;
     transform:skew(0deg,-10deg)translateY(-170px);
 }
@@ -24,6 +24,7 @@ body{
     padding: 150px 200px;
     transform: skew(0deg, 10deg);
     font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
 }
 .container h1{
     animation: 3s ease-out 0s 1 slideInFromLeft;
@@ -34,8 +35,9 @@ body{
     border-radius: 15px 50px 30px 5px;
     background-color: #7f53ac;
     background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%); 
-    width: 450px;
+    width: 600px;
     height: 100px;
+    text-align: center;
 }
 
 
@@ -81,6 +83,7 @@ nav{
 	width:150px;
     height: 50px;
     opacity: 0.9;
+    text-align: center;
 }
 
 nav:hover{
@@ -166,8 +169,8 @@ nav:hover{
     margin:20px 45px;
     height: 220px;
     width: 220px;
-    background-color: #fc5296;
-    background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%); 
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); 
     border-radius: 50%;
     display: inline-block; 
 }
@@ -175,8 +178,8 @@ nav:hover{
     margin: 20px 45px;
     height: 220px;
     width: 220px;
-    background-color: #fc5296;
-    background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%);
+    background-color: #00b712;
+    background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
     border-radius: 50%;
     display: inline-block; 
 }
@@ -184,8 +187,8 @@ nav:hover{
     margin: 20px 45px;
     height: 220px;
     width: 220px;
-    background-color: #fc5296;
-    background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%); 
+    background-color: #3f0d12;
+    background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
     border-radius: 50%;
     display: inline-block; 
 }
@@ -193,8 +196,8 @@ nav:hover{
     margin: 20px 45px;
     height: 220px;
     width: 220px;
-    background-color: #fc5296;
-    background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%); 
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); 
     border-radius: 50%;
     display: inline-block; 
 }
@@ -202,22 +205,29 @@ nav:hover{
     margin: 20px 45px;
     height: 220px;
     width: 220px;
-    background-color: #fc5296;
-    background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%); 
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%); 
     border-radius: 50%;
     display: inline-block;
-    align-content: center; 
 }
+
 .circle6{
     margin:20px 45px;
     height: 220px;
     width: 220px;
-    background-color: #fc5296;
-    background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%); 
+    background-color: #861657;
+    background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
     border-radius: 50%;
     display: inline-block; 
 }
+gif_container{
+    display: flex;
+}
 
+gif{
+    padding: 20px 100px 20px 20px;
+    align-items: left;
+}
 
 
 
