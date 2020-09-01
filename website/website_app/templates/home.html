@@ -1,46 +1,44 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mixed Devs</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static 'css/home.css' %}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/apple-touch-icon.png'%}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon-32x32.png' %}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon-16x16.png' %}">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-</head>
-<body>
-    <section class="skewedBox">
-        <div class="container">
-            <h1>Mixed Devs Website</h1>
-        </div>
-    </section>
-</body>
-<nav class="navbar navbar-light bg-light justify-content-between">
-    <a class="navbar-brand" href="{% url 'tan_page' %}">Tan</a>
-    <a class="navbar-brand" href="{% url 'daniil_page' %}">Daniil</a>
-  </nav>
-<body>
-    <section class="sec2">
-        <h1>About us</h1>
-        <p>We are students at an iternational school and we are about to finish it. We like coding and technoglgy. 
-            We want to grow as programmers and also we want to show ourselves. That is why we created this webiste.
-        </p>
-    </section>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mixed Devs</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'css/home.css' %}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/apple-touch-icon.png'%}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon-32x32.png' %}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon-16x16.png' %}">
+        <link rel="manifest" href="/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <section class="skewedBox">
+            <div class="container">
+                <h1>Mixed Devs Website</h1>
+            </div>
+        </section>
+    </body>
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand" href="{% url 'tan_page' %}">Tan</a>
+        <a class="navbar-brand" href="{% url 'daniil_page' %}">Daniil</a>
+    </nav>
+    <body>
+        <section class="sec2">
+            <h1>About us</h1>
+            <p>We are students at an iternational school and we are about to finish it. We like coding and technoglgy. 
+                We want to grow as programmers and also we want to show ourselves. That is why we created this webiste.
+            </p>
+        </section>
 
-<div id="section3">
-    <section id="section3">
-        <h1>What do we do?</h1>
-        <p>We try to develop interesting tools and programs from different branches of programming. As for example,
-            this website is our attempt to work in front-end and a bit of backend.
-        </p>
-    </section>
-</div>
+            <section id="section3">
+                <h1>What do we do?</h1>
+                <p>We try to develop interesting tools and programs from different branches of programming. As for example,
+                    this website is our attempt to work in front-end and a bit of backend.
+                </p>
+            </section>
+    </body>
 
 </html>
