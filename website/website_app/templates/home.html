@@ -7,10 +7,11 @@
         <title>Mixed Devs</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="{% static 'css/home.css' %}">
-        <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/apple-touch-icon.png'%}">
-        <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon-32x32.png' %}">
-        <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon-16x16.png' %}">
-        <link rel="manifest" href="{% static 'images/site.webmanifest' %}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/Favicon/apple-touch-icon.png' %}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/Favicon/favicon-32x32.png' %}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/Favicon/favicon-16x16.png' %}">
+        <link rel="manifest" href="{% static 'images/Favicon/site.webmanifest' %}">
+        <link rel="mask-icon" href="{% static 'images/Favicon/safari-pinned-tab.svg' %}" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
     </head>
@@ -25,6 +26,9 @@
         <a class="navbar-brand" href="{% url 'tan_page' %}">Tan</a>
         <a class="navbar-brand" href="{% url 'daniil_page' %}">Daniil</a>
     </nav>
+    <div class="gif_container1"> 
+        <img src="{% static 'video/weare.gif' %}">
+    </div>
     <body>
         <section class="sec2">
             <h1>About us</h1>
@@ -32,8 +36,8 @@
                 We want to grow as programmers and also we want to show ourselves. That is why we created this webiste.
             </p>
         </section>
-        <div class="gif_container"> 
-                <img src="{% static 'video/typing.gif' %}">
+        <div id="gif_container"> 
+            <img src="{% static 'video/typing.gif' %}">
         </div>
         <section id="section3">
             <h1>What do we do?</h1>

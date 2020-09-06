@@ -98,7 +98,7 @@ nav:hover{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     align-content: right;
-    margin: 20px 600px;
+    margin: 0px 600px;
 }
 #section3 h1{
     padding: 20px 0px;
@@ -116,7 +116,7 @@ nav:hover{
 
 #section3 p{
     font-size:1em ;
-    margin: 5px;
+    margin: 20px 200px;
     padding: 15px;
     line-height: 1.5em;
     width: 80%;
@@ -124,7 +124,7 @@ nav:hover{
     border-radius: 25px;
     border: 2px solid white;
     width: 500px;
-    height: 600px;
+    height: 150px;
 }
 
 
@@ -224,13 +224,22 @@ nav:hover{
 }
 
 
-.gif_container{
-    display: flex;
+#gif_container{
+    margin: 0px 50px;
+}
+
+#gif_container img{
     border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px;
-    width: 600px;
-    height: 450px;
+    vertical-align: center;
+}
+
+.gif_container1{
+    margin: 20px 1150px;
+}
+
+.gif_container1 img{
+    border-radius: 25px;
+    vertical-align: center;
 }
 
 
