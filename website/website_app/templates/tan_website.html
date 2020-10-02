@@ -4,9 +4,32 @@
     <head>
         <meta charset="UTF-8">
         <link rel='stylesheet'  href='{% static "css/tan_styling.css" %}'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!--The favicon links-->
+        <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/Favicon_d/apple-touch-icon.png' %}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/Favicon_d/favicon-32x32.png' %}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/Favicon_d/favicon-16x16.png' %}">
+        <link rel="manifest" href="{% static 'images/Favicon_d/site.webmanifest' %}">
+        <link rel="mask-icon" href="{% static 'images/Favicon_d/safari-pinned-tab.svg' %}" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
     </head>
       
-<body> 
+<body>
+    <! Navbar from bootstra---->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="{% url 'home' %}">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="{% url 'daniil_page' %}">Daniil <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+    </nav>  
     <section id="Home">
         <h1>WELCOME</h1>
     <section id="About">
